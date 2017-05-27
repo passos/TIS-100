@@ -1,0 +1,53 @@
+# Problem
+
+* READ VALUES FROM IN.A AND IN.B
+* WRITE IN.A - IN.B TO OUT.P
+* WRITE IN.B - IN.A TO OUT.N
+
+# Solution
+
+203 CYCLES / 5 NODES / 11 INSTR
+
+```
+@0
+
+
+@1
+MOV UP, ACC
+SUB RIGHT
+MOV ACC, DOWN
+
+@2
+MOV UP, LEFT
+
+@3
+
+
+@4
+
+
+@5
+MOV UP, DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV UP, ACC
+MOV ACC, DOWN
+MOV ACC, RIGHT
+
+@9
+MOV LEFT, ACC
+NEG
+MOV ACC, DOWN
+
+@10
+
+
+
+
+```
